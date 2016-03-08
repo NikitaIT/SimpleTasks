@@ -11,7 +11,7 @@ namespace TwoFools
         static void Main(string[] args)
         {
             string[] x = Console.ReadLine().Split(' ');
-            Console.WriteLine((10 - Convert.ToInt32(x[0])) + " " + (10 - Convert.ToInt32(x[1])));
+            Console.WriteLine((Convert.ToInt32(x[1])-1) + " " + (Convert.ToInt32(x[0])-1));
         }
     }
 }
